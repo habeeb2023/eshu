@@ -1,4 +1,4 @@
-# eshu
+# Eshu
 
 **Local · Private · Multi-Vault · Multimodal RAG System**
 
