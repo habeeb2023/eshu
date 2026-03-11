@@ -1,0 +1,40 @@
+# ── Core API ────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.34.0
+
+# ── Vector Database ──────────────────────────────────────────
+sqlite-vec==0.1.6
+
+# ── AI Orchestration ─────────────────────────────────────────
+langchain==0.3.10
+langchain-community==0.3.10
+langchain-ollama==0.2.1
+
+# ── Web UI ────────────────────────────────────────────────────
+streamlit==1.40.0
+
+# ── Document Parsing ─────────────────────────────────────────
+PyMuPDF==1.25.1
+pytesseract==0.3.13
+Pillow==11.0.0
+
+# ── Speech-to-Text ───────────────────────────────────────────
+faster-whisper==1.1.0
+sounddevice==0.5.1
+
+# ── Data Validation & Config ─────────────────────────────────
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# ── HTTP / Utilities ─────────────────────────────────────────
+httpx==0.28.1
+requests==2.32.3
+
+# ── Testing ───────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.25.0
+
+# ── Misc ──────────────────────────────────────────────────────
+tiktoken==0.8.0
+numpy==1.26.4

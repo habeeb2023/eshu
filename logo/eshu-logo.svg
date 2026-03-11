@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&amp;display=swap');
+    </style>
+    <linearGradient id="pathGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C0392B"/>
+      <stop offset="100%" style="stop-color:#E74C3C"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="#0D0D0D"/>
+
+  <!-- Outer ring (faint) -->
+  <circle cx="200" cy="185" r="110" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+
+  <!-- The crossroads — 4 arms radiating from center -->
+  <!-- Top arm -->
+  <line x1="200" y1="185" x2="200" y2="80" stroke="#C0392B" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- Bottom-left arm -->
+  <line x1="200" y1="185" x2="115" y2="265" stroke="#C0392B" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- Bottom-right arm -->
+  <line x1="200" y1="185" x2="285" y2="265" stroke="#C0392B" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- Left arm -->
+  <line x1="200" y1="185" x2="95" y2="185" stroke="#C0392B" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- Right arm -->
+  <line x1="200" y1="185" x2="305" y2="185" stroke="#C0392B" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Arrowhead — top (pointing up, outward) -->
+  <polygon points="200,72 194,88 206,88" fill="#C0392B" filter="url(#glow)"/>
+  <!-- Arrowhead — bottom-left -->
+  <polygon points="115,265 129,253 123,269" fill="#C0392B" filter="url(#glow)"/>
+  <!-- Arrowhead — bottom-right -->
+  <polygon points="285,265 277,249 291,253" fill="#C0392B" filter="url(#glow)"/>
+  <!-- Arrowhead — left -->
+  <polygon points="87,185 103,179 103,191" fill="#C0392B" filter="url(#glow)"/>
+  <!-- Arrowhead — right -->
+  <polygon points="313,185 297,179 297,191" fill="#C0392B" filter="url(#glow)"/>
+
+  <!-- Central node -->
+  <circle cx="200" cy="185" r="14" fill="#0D0D0D" stroke="#C0392B" stroke-width="2.5" filter="url(#glow)"/>
+  <circle cx="200" cy="185" r="5" fill="#C0392B" filter="url(#glow)"/>
+
+  <!-- Endpoint nodes -->
+  <circle cx="200" cy="80" r="4" fill="#C0392B" opacity="0.7"/>
+  <circle cx="115" cy="265" r="4" fill="#C0392B" opacity="0.7"/>
+  <circle cx="285" cy="265" r="4" fill="#C0392B" opacity="0.7"/>
+  <circle cx="95" cy="185" r="4" fill="#C0392B" opacity="0.7"/>
+  <circle cx="305" cy="185" r="4" fill="#C0392B" opacity="0.7"/>
+
+  <!-- Wordmark -->
+  <text
+    x="200"
+    y="340"
+    text-anchor="middle"
+    font-family="'Cinzel', 'Georgia', serif"
+    font-size="38"
+    font-weight="700"
+    fill="#EFEFEF"
+    letter-spacing="14"
+  >eshu</text>
+
+  <!-- Tagline -->
+  <text
+    x="200"
+    y="362"
+    text-anchor="middle"
+    font-family="'Cinzel', 'Georgia', serif"
+    font-size="8.5"
+    font-weight="400"
+    fill="#555555"
+    letter-spacing="5"
+  >KNOWLEDGE ROUTER</text>
+
+  <!-- Thin separator line under icon -->
+  <line x1="158" y1="310" x2="242" y2="310" stroke="#C0392B" stroke-width="0.8" opacity="0.5"/>
+</svg>
