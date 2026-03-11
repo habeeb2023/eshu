@@ -5,9 +5,8 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-*Named after Ẹ̀ṣù — Yoruba deity of crossroads and communication, who routes messages between worlds. Your smart router classifying queries = Eshu deciding which path.*
 
-A fully local AI knowledge management system. All models run on your machine via [Ollama](https://ollama.ai). **No data ever leaves your computer.**
+ESHU -- A fully local AI knowledge management system. All models run on your machine via [Ollama](https://ollama.ai). **No data ever leaves your computer.**
 
 ---
 
